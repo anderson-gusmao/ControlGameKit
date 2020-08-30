@@ -1,0 +1,6 @@
+language: swift
+xcode_project: ControlGameKit.xcodeproj
+xcode_scheme: ControlGameKit
+xcode_destination: platform=macOS
+osx_image: xcode11.6
+
