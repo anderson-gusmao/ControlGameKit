@@ -11,6 +11,7 @@ import Foundation
 import Foundation
 import Combine
 
+@available(OSX 10.15, *)
 public struct JoystickDpad {
 
 	public var onChange: AnyPublisher<DirectionalAction, Never> {

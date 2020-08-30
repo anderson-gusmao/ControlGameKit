@@ -1,3 +1,4 @@
 .DS_Store
 ControlGameKit.xcodeproj/xcuserdata
 ControlGameKit.xcodeproj/project.xcworkspace/xcuserdata
+.build

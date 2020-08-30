@@ -9,6 +9,7 @@
 import Foundation
 import Combine
 
+@available(OSX 10.15, *)
 public struct JoystickButtons {
 
 	public var onActionA: AnyPublisher<ButtonAction, Never> {

@@ -9,6 +9,7 @@
 import Foundation
 import Combine
 
+@available(OSX 10.15, *)
 public struct JoystickLink {
 
 	public var onConnect: AnyPublisher<Void, Never> {
