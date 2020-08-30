@@ -11,6 +11,7 @@ import GameController
 import Combine
 @testable import ControlGameKit
 
+@available(OSX 10.15, *)
 class JoystickLinkTests: XCTestCase {
 
 	private let joystick = Joystick(controllerType: GCControllerMock.self)

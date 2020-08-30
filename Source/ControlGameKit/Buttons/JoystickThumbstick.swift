@@ -9,6 +9,7 @@
 import Foundation
 import Combine
 
+@available(OSX 10.15, *)
 public struct JoystickThumbstick {
 
 	public var onMoveLeft: AnyPublisher<DirectionalAction, Never> {

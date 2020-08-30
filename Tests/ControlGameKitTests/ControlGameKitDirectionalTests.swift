@@ -11,6 +11,7 @@ import GameController
 import Combine
 @testable import ControlGameKit
 
+@available(OSX 10.15, *)
 class ControlGameKitDirectionalTests: XCTestCase {
 
     private let joystick = Joystick()

@@ -10,6 +10,7 @@ import Foundation
 import GameController
 import Combine
 
+@available(OSX 10.15, *)
 final public class Joystick{
 
 	public let dpad = JoystickDpad()
