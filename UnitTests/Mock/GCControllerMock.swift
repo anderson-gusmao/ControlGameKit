@@ -13,4 +13,8 @@ final class GCControllerMock: GCController {
 
 	override var isSnapshot: Bool { true }
 	override var extendedGamepad: GCExtendedGamepad? { gamePad }
+
+	override static func controllers() -> [GCController] {
+		return [GCControllerMock()]
+	}
 }
