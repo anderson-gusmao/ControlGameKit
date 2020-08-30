@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BA48E1824FC2580004D70A9 /* JoystickLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA48E1724FC2580004D70A9 /* JoystickLinkTests.swift */; };
+		8BA48E1A24FC2811004D70A9 /* DeallocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA48E1924FC2811004D70A9 /* DeallocationTests.swift */; };
 		8BCE0D4724FB35A300331B4E /* GCControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE0D4524FB35A000331B4E /* GCControllerMock.swift */; };
 		8BCE0D4924FB36F000331B4E /* GCExtendedGamepadMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE0D4824FB36F000331B4E /* GCExtendedGamepadMock.swift */; };
 		8BCE0D4B24FB3DA700331B4E /* ControlGameKitDirectionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE0D4A24FB3DA700331B4E /* ControlGameKitDirectionalTests.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8BA48E1724FC2580004D70A9 /* JoystickLinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickLinkTests.swift; sourceTree = "<group>"; };
+		8BA48E1924FC2811004D70A9 /* DeallocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeallocationTests.swift; sourceTree = "<group>"; };
 		8BCE0D4524FB35A000331B4E /* GCControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCControllerMock.swift; sourceTree = "<group>"; };
 		8BCE0D4824FB36F000331B4E /* GCExtendedGamepadMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCExtendedGamepadMock.swift; sourceTree = "<group>"; };
 		8BCE0D4A24FB3DA700331B4E /* ControlGameKitDirectionalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGameKitDirectionalTests.swift; sourceTree = "<group>"; };
@@ -132,6 +136,8 @@
 				8BD6498124F4A49F00557C4B /* ControlGameKitButtonsTests.swift */,
 				8BCE0D4A24FB3DA700331B4E /* ControlGameKitDirectionalTests.swift */,
 				8BCE0D5724FB686500331B4E /* ControlGameKitThumbstickTests.swift */,
+				8BA48E1724FC2580004D70A9 /* JoystickLinkTests.swift */,
+				8BA48E1924FC2811004D70A9 /* DeallocationTests.swift */,
 				8BD6498324F4A49F00557C4B /* Info.plist */,
 			);
 			path = UnitTests;
@@ -310,8 +316,10 @@
 			files = (
 				8BD6498224F4A49F00557C4B /* ControlGameKitButtonsTests.swift in Sources */,
 				8BCE0D5124FB552000331B4E /* GCControllerDirectionPadMock.swift in Sources */,
+				8BA48E1A24FC2811004D70A9 /* DeallocationTests.swift in Sources */,
 				8BCE0D5824FB686500331B4E /* ControlGameKitThumbstickTests.swift in Sources */,
 				8BCE0D4924FB36F000331B4E /* GCExtendedGamepadMock.swift in Sources */,
+				8BA48E1824FC2580004D70A9 /* JoystickLinkTests.swift in Sources */,
 				8BCE0D4D24FB53F800331B4E /* GCExtendedGamepadMock+Actions.swift in Sources */,
 				8BCE0D5424FB56FD00331B4E /* GCControllerDirectionPadMock+Dpad.swift in Sources */,
 				8BCE0D4724FB35A300331B4E /* GCControllerMock.swift in Sources */,

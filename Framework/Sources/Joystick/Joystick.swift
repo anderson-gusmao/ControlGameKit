@@ -16,6 +16,7 @@ final public class Joystick{
 	public let thumbstick = JoystickThumbstick()
 	public let buttons = JoystickButtons()
 	public let link = JoystickLink()
+	private let controllerType: AnyClass
 
 	private struct Constant {
 		static let onConnect = NSNotification.Name.GCControllerDidConnect
@@ -23,7 +24,8 @@ final public class Joystick{
 		static let notification = NotificationCenter.default
 	}
 
-	public init() {
+	public init(controllerType: AnyClass = GCController.self) {
+		self.controllerType = controllerType
 		observe()
 	}
 
@@ -36,9 +38,9 @@ final public class Joystick{
 		Constant.notification.addObserver(self, selector: #selector(disconnect), name: Constant.onDisconnect, object: nil)
 	}
 
-	@objc private func connect() {
+	@objc func connect() {
 		var indexNumber = 0
-		for controller in GCController.controllers() {
+		for controller in controllerType.controllers() {
 			if controller.extendedGamepad != nil {
 				guard let index = GCControllerPlayerIndex.init(rawValue: indexNumber) else { continue }
 				controller.playerIndex = index
@@ -49,7 +51,7 @@ final public class Joystick{
 		link.onConnectSubject.send()
 	}
 
-	@objc private func disconnect() {
+	@objc func disconnect() {
 		link.onDisconnectSubject.send()
 	}
 
