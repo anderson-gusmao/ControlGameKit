@@ -27,7 +27,7 @@ func anyFunction() {
 ```
 
 ## What you will find in this project
-###Buttons events
+### Buttons events
 
 * *joystick.buttons.onActionA* - **Press** and **release** actions from **A** button from joystick user;
 * *joystick.buttons.onActionB* - **Press** and **release** actions from **B** button from joystick user;
@@ -42,11 +42,11 @@ func anyFunction() {
 
 ##### *The trigger buttons are special type that have analog behavior, therefore, they have an associated value to express how much were pressed by the player.*
 
-###Dpad events
+### Dpad events
 
 * *joystick.dpad.onChange* - **Up**, **Down**,**Left**, **Right**, **UpLeft**, **UpRight**,**downLeft**, **downRight** and **center** actions from game player.
 
-###Thumbstick events
+### Thumbstick events
 
 * *joystick.thumbstick.onMoveLeft* - **Up**, **Down**,**Left**, **Right**, **UpLeft**, **UpRight**,**downLeft**, **downRight** and **center** actions from game player in the **left** thumbstick.  
 * *joystick.thumbstick.onMoveRight* - **Up**, **Down**,**Left**, **Right**, **UpLeft**, **UpRight**,**downLeft**, **downRight** and **center** actions from game player in the **right** thumbstick.  
@@ -55,10 +55,10 @@ func anyFunction() {
 
 ##### *The thumbstick controls are special type that have analog behavior, therefore, they have an associated value to express how much were pressed by the player.*
 
-###Link events
+### Link events
 * *joystick.link.onConnect* - It sends a message always when a new joystick is connected;
 * *joystick.link.onDisconnect* - It sends a message always when any joystick is disconnected;
 
 
-##Help to improve the project. 
+## Help to improve the project. 
 If you think any feature is missing or if you would like to improve anything, you are welcome to join and help to improve the project, open a pull request and let's build it toghether. 
