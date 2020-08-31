@@ -11,19 +11,19 @@ This is available as Swift package manager, on XCode menu **File** ->  **Swift P
 As simple as subsbribe to any Combine framework publisher, do not forget to **import ControlGameKit** into your class. 
 
 ```swift
-	private var joystick = Joystick()
-	private var cancellable: AnyCancellable?
+private var joystick = Joystick()
+private var cancellable: AnyCancellable?
 
-	func anyFunction() {
-		cancellable = joystick.buttons.onActionA.sink(receiveValue: { action in
-			switch action {
-			case .pressed(let player, _):
-				print("\(player)")
-			case .released(let player)
-				print("\(player)")
-			}
-		})
-	}
+func anyFunction() {
+	cancellable = joystick.buttons.onActionA.sink(receiveValue: { action in
+		switch action {
+		case .pressed(let player, _):
+			print("\(player)")
+		case .released(let player)
+			print("\(player)")
+		}
+	})
+}
 ```
 
 ## What you will find in this project
