@@ -4,8 +4,11 @@
 This project is a joystick abstraction using the reactive Combine framework based on the GameController framework. The idea was to encapsulate the events of the joystick using publishers to simplify the monitoring of player actions.
 
 ## How to import.
-This is available as Swift package manager, on XCode menu **File** ->  **Swift Packages** -> **Add Package Dependency** and use this repo as reference [https://github.com/anderson-gusmao/ControlGameKit.git
-](https://github.com/anderson-gusmao/ControlGameKit.git) or you can clone and build it locally as a framework. 
+This is available as Swift package manager, on XCode menu **File** ->  **Swift Packages** -> **Add Package Dependency** and use this repo as reference [https://github.com/anderson-gusmao/ControlGameKit.git](https://github.com/anderson-gusmao/ControlGameKit.git) or you can clone and build it locally as a framework. 
+
+## Sample project
+
+Take a look at [https://github.com/anderson-gusmao/GameTest](https://github.com/anderson-gusmao/GameTest)
 
 ## How to use.
 As simple as subsbribe to any Combine framework publisher, do not forget to **import ControlGameKit** into your class. 
